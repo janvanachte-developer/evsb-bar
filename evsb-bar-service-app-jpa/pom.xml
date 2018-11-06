@@ -6,6 +6,7 @@
         <artifactId>evsb-bar</artifactId>
         <groupId>be.cm.vbs</groupId>
         <version>1.14-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
