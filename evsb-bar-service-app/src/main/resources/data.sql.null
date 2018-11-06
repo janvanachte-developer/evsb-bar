@@ -1,0 +1,2 @@
+INSERT INTO public.bars
+values ('1','First bar','INITIAL',NULL, NULL);

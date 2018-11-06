@@ -1,0 +1,7 @@
+CREATE OR REPLACE TABLE public.bars (
+identifier VARCHAR2(36),
+name VARCHAR2(128),
+status VARCHAR2(32),
+startDateTime DATE,
+endDateTime DATE
+);

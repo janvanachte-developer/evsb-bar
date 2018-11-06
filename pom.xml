@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>be.cm.vbs</groupId>
+    <artifactId>evsb-bar</artifactId>
+    <packaging>pom</packaging>
+    <version>1.14-SNAPSHOT</version>
+    <modules>
+        <module>evsb-bar-service-app</module>
+        <module>evsb-bar-service-app-jpa</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.0.RELEASE</version>
+    </parent>
+
+    <!--<dependencyManagement>-->
+
+        <!--<dependencies>-->
+
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.data</groupId>-->
+                <!--<artifactId>spring-data-releasetrain</artifactId>-->
+                <!--<version>LATEST</version>-->
+                <!--<scope>import</scope>-->
+                <!--<type>pom</type>-->
+            <!--</dependency>-->
+
+        <!--</dependencies>-->
+
+    <!--</dependencyManagement>-->
+
+</project>
